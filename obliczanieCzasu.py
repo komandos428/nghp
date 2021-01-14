@@ -66,10 +66,7 @@ def obecnosc(dane, czasZajec, prog):
 
 
   osoby = []
-  osoby = list(osoby)
-  ####################
-  #sortowanie osoby
-  osoby.sort()
+ 
   i = 0
 
   while i < len(dane):
@@ -78,6 +75,10 @@ def obecnosc(dane, czasZajec, prog):
     i = i + 1
 
   osoby = set(osoby)
+  osoby = list(osoby)
+  ####################
+  #sortowanie osoby
+  osoby.sort()
 
   #print(osoby)
   #print(lista)
