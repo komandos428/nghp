@@ -97,6 +97,11 @@ def obecnosc(dane, czasZajec):
     i = i + 1
 
   osoby = set(osoby)
+  osoby = list(osoby)
+  ####################
+  #sortowanie osoby
+  osoby.sort()
+
 
   #print(osoby)
   #print(lista)
